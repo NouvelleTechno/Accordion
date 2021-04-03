@@ -1,0 +1,22 @@
+.accordion-element{
+    border: 1px solid grey;
+}
+
+.accordion-element h1{
+    color: blue;
+    padding: 10px;
+    margin: 0;
+    border: 1px solid grey;
+    cursor: pointer;
+}
+
+.accordion-content{
+    height: 0;
+    overflow: hidden;
+    margin: 0;
+    transition: 2s height;
+}
+
+.accordion-content p{
+    padding: 10px;
+}
